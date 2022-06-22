@@ -1,3 +1,7 @@
+<img src="/home/veer/Pictures/Link to final1.png" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
+
+<img src="/home/veer/Pictures/Link to final2.png" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

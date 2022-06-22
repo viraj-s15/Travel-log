@@ -1,0 +1,28 @@
+:root {
+  --navbar-colour: #f55a5a;
+  --navbar-text-color: rgb(237, 237, 237);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.navbar {
+  max-width: 40rem;
+  font-size: 0.7rem;
+  background-color: var(--navbar-colour);
+  color: var(--navbar-text-color);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 5rem;
+  border-radius: 2rem;
+}
+
+.navbar--header {
+  margin: 0.7rem;
+}

@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --name-font-style: "Inter";
+  --font-colour-default: black;
+  --name-font: 1.25rem;
+  --maps-link-font: 0.15rem;
+  --landmark-font: 2rem;
+  --date-font: 0.2rem;
+  --text-font: 1.5rem;
+  --location-link-colour: #918e9b;
+  --background-color: white;
+}
+
+[data-theme="dark"] {
+  --font-colour-default: white;
+  --location-link-colour: #dbd0ff;
+  --background-color: black;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.card--container {
+  display: flex;
+  max-width: 40rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: var(--font-colour-default);
+}
+
+.card--image {
+  width: 12rem;
+  height: 13rem;
+  border-radius: 10%;
+}
+.card--secondary {
+  margin-left: 3.5rem;
+}
+
+.flex--column--container {
+  white-space: nowrap;
+}
+
+.maps--link {
+  margin-left: 2rem;
+  display: inline-block;
+  color: var(--location-link-colour);
+}
+
+.card--location {
+  display: inline-block;
+  font: var(--name-font-style);
+  letter-spacing: 0.4rem;
+  margin-left: 0.75rem;
+}
+
+.card--landmark {
+  margin-top: -0.5rem;
+  margin-bottom: -0.5rem;
+  font: var(--name-font-size);
+  font-size: var(--landmark-font);
+  font-weight: 600;
+}
+
+.card--text {
+  font: var(--name-font-size);
+}
