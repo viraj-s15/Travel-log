@@ -1,6 +1,7 @@
-<img src="/home/veer/Pictures/Link to final1.png" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
 
-<img src="/home/veer/Pictures/Link to final2.png" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
+![final1](https://user-images.githubusercontent.com/79002760/175015161-891a1c2e-2504-4d33-97b9-d0bf2dd35110.png)
+
+![final2](https://user-images.githubusercontent.com/79002760/175015182-dacaf0bc-6665-4d9e-9190-3e4e0f8db0d9.png)
 
 # Getting Started with Create React App
 
